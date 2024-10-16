@@ -4,6 +4,10 @@ plugins {
 }
 
 neoForge {
+    dependencies {
+        implementation "fuzs.forgeconfigapiport:forgeconfigapiport-neoforge:${forge_config_api_port_version}"
+    }
+
     version = neoforge_version
     // Automatically enable neoforge AccessTransformers if the file exists
     def at = project(':common').file('src/main/resources/META-INF/accesstransformer.cfg')
