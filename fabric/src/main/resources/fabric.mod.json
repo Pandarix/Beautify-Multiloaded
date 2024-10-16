@@ -18,7 +18,7 @@
       "net.pandarix.fabric.BeautifyFabric"
     ],
     "client": [
-      "net.pandarix.fabric.client.BeautifyFabricClient"
+      "net.pandarix.fabric.event.ClientModEvents"
     ]
   },
   "mixins": [

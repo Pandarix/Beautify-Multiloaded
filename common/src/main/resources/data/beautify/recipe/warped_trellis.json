@@ -1,21 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "/ /",
-        " O ",
-        "/ /"
-    ],
-    "key": {
-        "/": {
-            "item": "minecraft:stick"
-        },
-        "O": {
-            "item": "minecraft:warped_stem"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/ /",
+    " O ",
+    "/ /"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
     },
-    "result": {
-        "id": "beautify:warped_trellis",
-        "count": 4
-    },
-    "group": "trellis"
+    "O": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result": {
+    "id": "beautify:warped_trellis",
+    "count": 4
+  },
+  "group": "trellis"
 }

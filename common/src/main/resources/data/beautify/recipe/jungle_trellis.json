@@ -1,21 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "/ /",
-        " O ",
-        "/ /"
-    ],
-    "key": {
-        "/": {
-            "item": "minecraft:stick"
-        },
-        "O": {
-            "item": "minecraft:jungle_log"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/ /",
+    " O ",
+    "/ /"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
     },
-    "result": {
-        "id": "beautify:jungle_trellis",
-        "count": 4
-    },
-    "group": "trellis"
+    "O": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "result": {
+    "id": "beautify:jungle_trellis",
+    "count": 4
+  },
+  "group": "trellis"
 }

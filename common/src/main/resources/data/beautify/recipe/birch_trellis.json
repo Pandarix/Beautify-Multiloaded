@@ -1,21 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "/ /",
-        " O ",
-        "/ /"
-    ],
-    "key": {
-        "/": {
-            "item": "minecraft:stick"
-        },
-        "O": {
-            "item": "minecraft:birch_log"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/ /",
+    " O ",
+    "/ /"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
     },
-    "result": {
-        "id": "beautify:birch_trellis",
-        "count": 4
-    },
-    "group": "trellis"
+    "O": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "result": {
+    "id": "beautify:birch_trellis",
+    "count": 4
+  },
+  "group": "trellis"
 }

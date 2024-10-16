@@ -4,6 +4,10 @@ import com.mojang.logging.LogUtils;
 import com.teamresourceful.resourcefulconfig.api.loader.Configurator;
 import net.minecraft.resources.ResourceLocation;
 import net.pandarix.config.BeautifyConfig;
+import net.pandarix.core.init.BlockInit;
+import net.pandarix.core.init.ItemGroupInit;
+import net.pandarix.core.init.ItemInit;
+import net.pandarix.core.init.SoundInit;
 import org.slf4j.Logger;
 
 public final class BeautifyCommon
@@ -17,6 +21,12 @@ public final class BeautifyCommon
     public static void init()
     {
         CONFIGURATOR.register(BeautifyConfig.class);
+
+        SoundInit.SOUND_EVENTS.register();
+        BlockInit.BLOCKS.register();
+        ItemInit.ITEMS.register();
+        ItemInit.registerFuel();
+        ItemGroupInit.CREATIVE_MODE_TABS.register();
         // Write common init code here.
     }
 
