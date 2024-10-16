@@ -104,5 +104,9 @@
 	"sounds.beautify.bookstack_fall": "Упал на книжный стеллаж",
 	"sounds.beautify.bookstack_next": "Книжный стеллаж переключен",
 	"sounds.beautify.blinds_open": "Жалюзи открыты",
-	"sounds.beautify.blinds_close": "Жалюзи закрыты"
+	"sounds.beautify.blinds_close": "Жалюзи закрыты",
+
+	"config.beautify.botanistSpawnWeight": "Botanist House Weight",
+	"config.beautify.opensFromRoot": "Open Blinds from Root",
+	"config.beautify.searchRadius": "Blind Search Radius"
 }
