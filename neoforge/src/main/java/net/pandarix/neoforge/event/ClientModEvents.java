@@ -15,7 +15,6 @@ public class ClientModEvents
     @SubscribeEvent
     public static void registerParticleFactories(final RegisterParticleProvidersEvent event)
     {
-        ParticleInit.PARTICLE_TYPES.register();
         event.registerSpriteSet(ParticleInit.GLOWESSENCE_PARTICLES.get(),
                 GlowEssenceParticles.Provider::new);
     }
